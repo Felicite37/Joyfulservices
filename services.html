@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services - Joyful Services</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary-color: #f59e0b;
+        --primary-dark: #d97706;
+        --secondary-color: #1f2937;
+        --accent-color: #10b981;
+      }
+
+      .navbar-gradient {
+        background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+      }
+
+      .hero-gradient {
+        background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+      }
+
+      .card-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .btn-primary {
+        background-color: #f59e0b;
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        background-color: #d97706;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 font-sans text-gray-800">
+    <!-- Navigation Bar -->
+    <nav class="navbar-gradient shadow-lg sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center">
+            <a href="index.html" class="flex items-center">
+              <span class="text-2xl font-bold text-orange-400">🍽️</span>
+              <span class="ml-2 text-xl font-bold text-white"
+                >Joyful Services</span
+              >
+            </a>
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="index.html"
+              class="text-white hover:text-orange-400 transition duration-300 font-medium"
+              >Home</a
+            >
+            <a
+              href="services.html"
+              class="text-white hover:text-orange-400 transition duration-300 font-medium"
+              >Services</a
+            >
+            <a
+              href="about.html"
+              class="text-white hover:text-orange-400 transition duration-300 font-medium"
+              >About</a
+            >
+            <a
+              href="contact.html"
+              class="text-white hover:text-orange-400 transition duration-300 font-medium"
+              >Contact</a
+            >
+          </div>
+          <button
+            class="btn-primary text-white px-6 py-2 rounded-lg font-semibold hidden md:block"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero-gradient text-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl font-bold mb-4">Our Services</h1>
+        <p class="text-xl text-orange-100">
+          Professional culinary solutions tailored to your needs
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Personal Cook Service -->
+        <div class="mb-16">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 class="text-4xl font-bold text-gray-900 mb-6">
+                Personal Chef Service
+              </h2>
+              <p class="text-lg text-gray-600 mb-4">
+                Our professional personal chefs bring culinary expertise
+                directly to your home. Whether you need daily meal preparation,
+                special dietary accommodations, or gourmet cooking for
+                distinguished guests, we have the perfect solution.
+              </p>
+              <ul class="space-y-3 text-gray-700">
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span>Daily
+                  meal preparation
+                </li>
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span>Special
+                  diet expertise (Keto, Vegan, etc.)
+                </li>
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span>Flexible
+                  scheduling
+                </li>
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span>Custom
+                  menus
+                </li>
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span>Shopping
+                  assistance
+                </li>
+              </ul>
+              <button
+                class="btn-primary text-white px-8 py-3 rounded-lg font-semibold mt-6"
+              >
+                Book a Chef
+              </button>
+            </div>
+            <div
+              class="bg-gradient-to-br from-orange-100 to-yellow-100 rounded-xl p-8 text-center"
+            >
+              <div class="text-7xl mb-4">👨‍🍳</div>
+              <p class="text-lg text-gray-700 font-semibold">
+                Expert Professional Chefs Ready to Serve
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-12" />
+
+        <!-- Event Catering Service -->
+        <div class="mb-16">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div
+              class="bg-gradient-to-br from-green-100 to-teal-100 rounded-xl p-8 text-center"
+            >
+              <div class="text-7xl mb-4">🎉</div>
+              <p class="text-lg text-gray-700 font-semibold">
+                Unforgettable Events with Exceptional Catering
+              </p>
+            </div>
+            <div>
+              <h2 class="text-4xl font-bold text-gray-900 mb-6">
+                Event Catering
+              </h2>
+              <p class="text-lg text-gray-600 mb-4">
+                Transform your events with our premium catering services. From
+                intimate gatherings to grand celebrations, we deliver
+                exceptional food and impeccable service that will impress your
+                guests.
+              </p>
+              <ul class="space-y-3 text-gray-700">
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span>Weddings
+                  & engagements
+                </li>
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span>Corporate
+                  events
+                </li>
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span>Birthday
+                  celebrations
+                </li>
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span
+                  >Customized menus
+                </li>
+                <li class="flex items-center">
+                  <span class="text-orange-400 font-bold mr-3">✓</span
+                  >Professional staff
+                </li>
+              </ul>
+              <button
+                class="btn-primary text-white px-8 py-3 rounded-lg font-semibold mt-6"
+              >
+                Request Catering
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Packages Section -->
+    <section class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Service Packages
+          </h2>
+          <p class="text-lg text-gray-600">
+            Choose the package that suits your needs
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Starter Package -->
+          <div
+            class="card-hover bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-400"
+          >
+            <div class="text-4xl mb-4">💰</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">Starter</h3>
+            <p class="text-sm text-gray-600 mb-6">Perfect for individuals</p>
+            <p class="text-3xl font-bold text-orange-400 mb-6">
+              RWF 150K<span class="text-base text-gray-600">/month</span>
+            </p>
+            <ul class="space-y-3 mb-8 text-gray-700">
+              <li>✓ 2 meals per day</li>
+              <li>✓ 5 days per week</li>
+              <li>✓ Basic meal plans</li>
+              <li>✓ Local ingredients</li>
+            </ul>
+            <button
+              class="btn-primary text-white w-full py-2 rounded-lg font-semibold"
+            >
+              Select Package
+            </button>
+          </div>
+
+          <!-- Professional Package -->
+          <div
+            class="card-hover bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-400 md:scale-105"
+          >
+            <div class="text-4xl mb-4">⭐</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">Professional</h3>
+            <p class="text-sm text-gray-600 mb-6 text-orange-400 font-semibold">
+              MOST POPULAR
+            </p>
+            <p class="text-3xl font-bold text-orange-400 mb-6">
+              RWF 350K<span class="text-base text-gray-600">/month</span>
+            </p>
+            <ul class="space-y-3 mb-8 text-gray-700">
+              <li>✓ 3 meals per day</li>
+              <li>✓ 6 days per week</li>
+              <li>✓ Custom meal plans</li>
+              <li>✓ Premium ingredients</li>
+              <li>✓ Diet consultation</li>
+            </ul>
+            <button
+              class="btn-primary text-white w-full py-2 rounded-lg font-semibold"
+            >
+              Select Package
+            </button>
+          </div>
+
+          <!-- Premium Package -->
+          <div
+            class="card-hover bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-400"
+          >
+            <div class="text-4xl mb-4">👑</div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">Premium</h3>
+            <p class="text-sm text-gray-600 mb-6">For executive families</p>
+            <p class="text-3xl font-bold text-orange-400 mb-6">
+              RWF 550K<span class="text-base text-gray-600">/month</span>
+            </p>
+            <ul class="space-y-3 mb-8 text-gray-700">
+              <li>✓ Unlimited meals</li>
+              <li>✓ 7 days per week</li>
+              <li>✓ Personalized menus</li>
+              <li>✓ Gourmet ingredients</li>
+              <li>✓ Event catering included</li>
+            </ul>
+            <button
+              class="btn-primary text-white w-full py-2 rounded-lg font-semibold"
+            >
+              Select Package
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="hero-gradient text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold mb-6">
+          Ready to Transform Your Culinary Experience?
+        </h2>
+        <button
+          class="btn-primary text-white px-8 py-3 rounded-lg font-semibold text-lg"
+        >
+          Schedule a Consultation
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <h3 class="text-xl font-bold text-orange-400 mb-4">
+              Joyful Services
+            </h3>
+            <p class="text-gray-400">
+              Professional cook and catering services in Kigali, Rwanda.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-orange-400 mb-4">Quick Links</h3>
+            <ul class="text-gray-400 space-y-2">
+              <li>
+                <a href="index.html" class="hover:text-orange-400">Home</a>
+              </li>
+              <li>
+                <a href="services.html" class="hover:text-orange-400"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="hover:text-orange-400">About Us</a>
+              </li>
+              <li>
+                <a href="contact.html" class="hover:text-orange-400">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-orange-400 mb-4">Contact Info</h3>
+            <p class="text-gray-400 mb-2">📧 info@joyfulservices.com</p>
+            <p class="text-gray-400 mb-2">📱 +250784834324</p>
+            <p class="text-gray-400">📍 Kigali, Rwanda</p>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+          <p>
+            &copy; 2026 Joyful Services. All rights reserved. | Professional
+            Culinary Excellence
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
